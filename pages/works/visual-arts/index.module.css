@@ -1,0 +1,44 @@
+.canvas {
+  min-height: 80vh;
+  align-items: center;
+}
+
+.bannerContainer {
+  width: 100%;
+  height: 20%;
+  position: relative;
+}
+
+.banner {
+  margin: auto;
+  text-align: center;
+  max-width: 45em;
+}
+
+.vaCanvas {
+  width: 100%;
+  max-width: 45em;
+  margin: auto;
+  background-color:#eee8d5;
+}
+
+.vaTitleContainer {
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  width: 90%;
+  max-width: 700px;
+  margin: auto;
+  font-family: Arvo;
+  display: flex;
+}
+
+.previewIcon {
+  width: 20%;
+  width: 20%;
+  background-color: #fdf6e3;
+  margin: auto;
+}
+
+.previewIcon:hover {
+  cursor: pointer;
+}
