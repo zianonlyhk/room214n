@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className={cssClasses.canvas}>
       <Head>
-        <title>About 214N</title>
+        <title>Coding Readme</title>
       </Head>
 
       <div className={cssClasses.textBg}>
@@ -26,18 +26,15 @@ export default function Home() {
           </Link>
 
           <p>
-            As the title suggest, this is just a blog template for me to
-            make updates. I can just make a copy of this directory, make a link
-            on the parent page, and start to write my blog.
+            I will use this page to showcase my coding works, including some
+            image processing and scientific computing projects, though I believe
+            it will remain a bit empty for a while until I spend time to
+            organise everything well.&nbsp;
           </p>
           <p>
-            Alternatively I can use content management tools like Sanity.js and
-            that will be one of my future plan to increase my productivity
-            updating this website.
-          </p>
-          <p>
-            Sorry for letting you down thinking of reading something in this
-            page. Go back and there will be more interesting items. I hope so lol.
+            But it is way easier for me to put on my drawings and paintings in
+            the neighbour session. Have a look if it is a bit lonely in this
+            coding session.
           </p>
         </div>
       </div>

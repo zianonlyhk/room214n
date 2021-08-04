@@ -19,7 +19,7 @@
   width: 100%;
   max-width: 45em;
   margin: auto;
-  background-color:#eee8d5;
+  background-color: #eee8d5;
 }
 
 .vaTitleContainer {
@@ -34,7 +34,7 @@
 
 .previewIcon {
   width: 20%;
-  width: 20%;
+  height: auto;
   background-color: #fdf6e3;
   margin: auto;
 }

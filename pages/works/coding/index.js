@@ -24,7 +24,7 @@ export default function Home() {
       <div className={cssClasses.blogCanvas}>
         <div className={cssClasses.blogTitleContainer}>
           <div className={cssClasses.blogTitle}>
-            <Link href="/works/coding/template">blog template</Link>
+            <Link href="/works/coding/readme">Readme</Link>
             dd/mm/yyyy
           </div>
         </div>
