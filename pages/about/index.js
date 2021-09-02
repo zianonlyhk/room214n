@@ -40,13 +40,13 @@ export default function Home() {
           <p>
             I put my CV{" "}
             <a
-              href="https://drive.google.com/file/d/1qHKiz6XD7ZrkyRjbi2Y5BYk332_zsu2D/view?usp=sharing"
+              href="https://drive.google.com/drive/folders/1KSoziYn1tKHGtvA5Ft-br9_boDI6FGGV?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >
               here
             </a>
-            (updated August 2021), as a link to Google Drive, hoping this casual
+            (updated September 2021), as a link to Google Drive, hoping this casual
             personal website can help to build a more complete career profile.
           </p>
           <p>
