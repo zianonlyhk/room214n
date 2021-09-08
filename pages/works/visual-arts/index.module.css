@@ -42,3 +42,7 @@
 .previewIcon:hover {
   cursor: pointer;
 }
+
+.backIcon:hover {
+  cursor: pointer;
+}

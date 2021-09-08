@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Head from "next/head";
+import Link from "next/link";
 import cssClasses from "./index.module.css";
 import Modal from "/components/Modal.js";
+import backIcon from "/img/others/back.png";
 
 // importing images
 import vaBanner from "/img/works/works-banner.png";
@@ -34,6 +36,15 @@ export default function Home() {
 
       {/* blog titles and links */}
       <div className={cssClasses.vaCanvas}>
+        <Link href="/works">
+          <Image
+            width={100}
+            height={50}
+            layout="intrinsic"
+            className={cssClasses.backIcon}
+            src={backIcon}
+          />
+        </Link>
         <div className={cssClasses.vaTitleContainer}>
           <div className={cssClasses.previewIcon}>
             <Image
