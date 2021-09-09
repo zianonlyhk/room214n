@@ -49,7 +49,7 @@ const StyledModalHeader = styled.div`
 `;
 
 const StyledModal = styled.div`
-  background: white;
+  background: black;
   width: 600px;
   height: 450px;
   border-radius: 15px;
