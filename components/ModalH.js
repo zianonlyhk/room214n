@@ -41,21 +41,19 @@ const Modal = ({ show, onClose, children, title }) => {
 };
 
 const StyledModalBody = styled.div`
-  padding-top: 10px;
 `;
 
 const StyledModalHeader = styled.div`
   display: flex;
   justify-content: flex-end;
-  font-size: 25px;
 `;
 
 const StyledModal = styled.div`
   background: white;
-  width: 500px;
-  height: 600px;
+  width: 600px;
+  height: 450px;
   border-radius: 15px;
-  padding: 15px;
+  padding: 10px;
 `;
 const StyledModalOverlay = styled.div`
   position: absolute;

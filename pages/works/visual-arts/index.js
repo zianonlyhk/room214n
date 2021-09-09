@@ -3,7 +3,8 @@ import Image from "next/image";
 import Head from "next/head";
 import Link from "next/link";
 import cssClasses from "./index.module.css";
-import Modal from "/components/Modal.js";
+import ModalV from "/components/ModalV.js";
+import ModalH from "/components/ModalH.js";
 import backIcon from "/img/others/back.png";
 
 // importing images
@@ -74,15 +75,15 @@ export default function Home() {
             />
           </div>
         </div>
-        <Modal onClose={() => setShowModal1(false)} show={showModal1}>
+        <ModalH onClose={() => setShowModal1(false)} show={showModal1}>
           <Image layout="intrinsic" src={fountainPen} />
-        </Modal>
-        <Modal onClose={() => setShowModal2(false)} show={showModal2}>
+        </ModalH>
+        <ModalH onClose={() => setShowModal2(false)} show={showModal2}>
           <Image layout="intrinsic" src={drPepper} />
-        </Modal>
-        <Modal onClose={() => setShowModal3(false)} show={showModal3}>
-          <Image layout="intrinsic" src={polyMe} />
-        </Modal>
+        </ModalH>
+        <ModalV onClose={() => setShowModal3(false)} show={showModal3}>
+          <Image layout="responsive" src={polyMe} />
+        </ModalV>
         {/* <Modal onClose={() => setShowModal4(false)} show={showModal4}>
           <Image layout="intrinsic" src={addHere} />
         </Modal>
