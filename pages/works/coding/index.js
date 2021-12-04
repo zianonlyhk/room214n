@@ -38,6 +38,8 @@ export default function Home() {
             08/09/2021
           </div>
         </div>
+      </div>
+      <div className={cssClasses.blogCanvas}>
         <div className={cssClasses.blogTitleContainer}>
           <div className={cssClasses.blogTitle}>
             <Link href="/works/coding/readme">Readme</Link>

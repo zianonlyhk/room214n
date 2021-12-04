@@ -23,6 +23,25 @@ export default function Home() {
 
       {/* blog titles and links */}
       <div className={cssClasses.blogCanvas}>
+
+        <div className={cssClasses.blogTitleContainer}>
+            <div className={cssClasses.blogTitle}>
+              <Link href="/blog/kelvin_wave_infographic">Kelvin waves infographic</Link>
+              04/12/2021
+            </div>
+          </div>
+
+        <div className={cssClasses.blogTitleContainer}>
+          <div className={cssClasses.blogTitle}>
+            <Link href="/blog/coriolis_force">Coriolis force YouTube video</Link>
+            03/11/2021
+          </div>
+        </div>
+
+      </div>
+
+      {/* blog titles and links */}
+      <div className={cssClasses.blogCanvas}>
         <div className={cssClasses.blogTitleContainer}>
           <div className={cssClasses.blogTitle}>
             <Link href="/blog/readme">Readme</Link>
@@ -30,6 +49,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+
     </div>
   );
 }
