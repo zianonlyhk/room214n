@@ -41,9 +41,9 @@ export default function Home() {
           <p>
             By the way, after finishing all of the assignment in January, I am
             planning to update this website. I am planning to add a native pdf
-            reading function so I don't need to put download link everytime and
+            reading function so I dont need to put download link everytime and
             people will feel more comfortable browsing. I will probably make
-            some changes on the modals in the "Arts" section as well.
+            some changes on the modals in the Arts section as well.
           </p>
           <p>
             <a
