@@ -25,6 +25,13 @@ export default function Home() {
       <div className={cssClasses.blogCanvas}>
 
         <div className={cssClasses.blogTitleContainer}>
+              <div className={cssClasses.blogTitle}>
+                <Link href="/blog/hpge_formal_report">Gamma spectroscopy using HPGe detector</Link>
+                03/01/2022
+              </div>
+            </div>
+
+        <div className={cssClasses.blogTitleContainer}>
             <div className={cssClasses.blogTitle}>
               <Link href="/blog/kelvin_wave_infographic">Kelvin waves infographic</Link>
               04/12/2021
