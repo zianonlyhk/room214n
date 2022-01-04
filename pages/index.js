@@ -31,7 +31,7 @@ export default function Home() {
   return (
     <div className={cssClasses.canvas}>
       <Head>
-        <title>Room 214N</title>
+        <title>Room214N | Zian Huang | 黃梓安</title>
       </Head>
 
       {/* home page banner */}
