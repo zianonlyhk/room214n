@@ -25,22 +25,29 @@ export default function Home() {
       <div className={cssClasses.blogCanvas}>
 
         <div className={cssClasses.blogTitleContainer}>
-              <div className={cssClasses.blogTitle}>
-                <Link href="/blog/hpge_formal_report">Gamma spectroscopy using HPGe detector</Link>
-                03/01/2022
-              </div>
-            </div>
-
-        <div className={cssClasses.blogTitleContainer}>
-            <div className={cssClasses.blogTitle}>
-              <Link href="/blog/kelvin_wave_infographic">Kelvin waves infographic</Link>
-              04/12/2021
-            </div>
+          <div className={cssClasses.blogTitle}>
+            <Link href="/blog/jet_tagging">- Separating jet images using CNN</Link>
+            09/01/2022
           </div>
+        </div>
 
         <div className={cssClasses.blogTitleContainer}>
           <div className={cssClasses.blogTitle}>
-            <Link href="/blog/coriolis_force">Coriolis force YouTube video</Link>
+            <Link href="/blog/hpge_formal_report">- Gamma spectroscopy using HPGe detector</Link>
+            03/01/2022
+          </div>
+        </div>
+
+        <div className={cssClasses.blogTitleContainer}>
+          <div className={cssClasses.blogTitle}>
+            <Link href="/blog/kelvin_wave_infographic">- Kelvin waves infographic</Link>
+            04/12/2021
+          </div>
+        </div>
+
+        <div className={cssClasses.blogTitleContainer}>
+          <div className={cssClasses.blogTitle}>
+            <Link href="/blog/coriolis_force">- Coriolis force YouTube video</Link>
             03/11/2021
           </div>
         </div>
@@ -51,7 +58,7 @@ export default function Home() {
       <div className={cssClasses.blogCanvas}>
         <div className={cssClasses.blogTitleContainer}>
           <div className={cssClasses.blogTitle}>
-            <Link href="/blog/readme">Readme</Link>
+            <Link href="/blog/readme">- Readme</Link>
             dd/mm/yyyy
           </div>
         </div>

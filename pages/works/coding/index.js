@@ -34,7 +34,7 @@ export default function Home() {
         </Link>
         <div className={cssClasses.blogTitleContainer}>
           <div className={cssClasses.blogTitle}>
-            <Link href="/works/coding/snake-filter">Snake Filter</Link>
+            <Link href="/works/coding/snake-filter">- Snake Filter</Link>
             08/09/2021
           </div>
         </div>
@@ -42,7 +42,7 @@ export default function Home() {
       <div className={cssClasses.blogCanvas}>
         <div className={cssClasses.blogTitleContainer}>
           <div className={cssClasses.blogTitle}>
-            <Link href="/works/coding/readme">Readme</Link>
+            <Link href="/works/coding/readme">- Readme</Link>
             dd/mm/yyyy
           </div>
         </div>
