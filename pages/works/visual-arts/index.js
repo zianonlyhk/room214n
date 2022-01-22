@@ -12,21 +12,11 @@ import vaBanner from "/img/works/works-banner.png";
 import fountainPen from "/img/works/vaRes/fountainpen.JPG";
 import drPepper from "/img/works/vaRes/drpepper.JPG";
 import polyMe from "/img/works/vaRes/polyme.jpg";
-import ldw1 from "/img/works/vaRes/ldw1.jpg";
-import ldw2 from "/img/works/vaRes/ldw2.jpg";
-import ldm1 from "/img/works/vaRes/ldm1.jpg";
-import ldm2 from "/img/works/vaRes/ldm2.jpg";
 
 export default function Home() {
   const [showModal1, setShowModal1] = useState(false);
   const [showModal2, setShowModal2] = useState(false);
   const [showModal3, setShowModal3] = useState(false);
-  const [showModal4, setShowModal4] = useState(false);
-  const [showModal5, setShowModal5] = useState(false);
-  const [showModal6, setShowModal6] = useState(false);
-  const [showModal7, setShowModal7] = useState(false);
-  const [showModal8, setShowModal8] = useState(false);
-
   return (
     <div className={cssClasses.canvas}>
       <Head>
@@ -79,46 +69,6 @@ export default function Home() {
             />
           </div>
         </div>
-        <div className={cssClasses.vaTitleContainer}>
-          <div className={cssClasses.previewIcon}>
-            <Image
-              layout="intrinsic"
-              src={ldw1}
-              onClick={() => {
-                setShowModal4(true);
-              }}
-            />
-          </div>
-          <div className={cssClasses.previewIcon}>
-            <Image
-              layout="intrinsic"
-              src={ldw2}
-              onClick={() => {
-                setShowModal5(true);
-              }}
-            />
-          </div>
-          <div className={cssClasses.previewIcon}>
-            <Image
-              layout="intrinsic"
-              src={ldm1}
-              onClick={() => {
-                setShowModal6(true);
-              }}
-            />
-          </div>
-        </div>
-        <div className={cssClasses.vaTitleContainer}>
-          <div className={cssClasses.previewIcon}>
-            <Image
-              layout="intrinsic"
-              src={ldm2}
-              onClick={() => {
-                setShowModal7(true);
-              }}
-            />
-          </div>
-        </div>
         <ModalH onClose={() => setShowModal1(false)} show={showModal1}>
           <Image layout="intrinsic" src={fountainPen} />
         </ModalH>
@@ -128,21 +78,6 @@ export default function Home() {
         <ModalV onClose={() => setShowModal3(false)} show={showModal3}>
           <Image layout="responsive" src={polyMe} />
         </ModalV>
-        <ModalH onClose={() => setShowModal4(false)} show={showModal4}>
-          <Image layout="intrinsic" src={ldw1} />
-        </ModalH>
-        <ModalV onClose={() => setShowModal5(false)} show={showModal5}>
-          <Image layout="intrinsic" src={ldw2} />
-        </ModalV>
-        <ModalV onClose={() => setShowModal6(false)} show={showModal6}>
-          <Image layout="intrinsic" src={ldm1} />
-        </ModalV>
-        <ModalV onClose={() => setShowModal7(false)} show={showModal7}>
-          <Image layout="intrinsic" src={ldm2} />
-        </ModalV>
-        {/* <Modal onClose={() => setShowModal8(false)} show={showModal8}>
-          <Image layout="intrinsic" src={addHere} />
-        </Modal> */}
       </div>
     </div>
   );
