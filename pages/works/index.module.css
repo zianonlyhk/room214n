@@ -1,6 +1,11 @@
 .canvas {
   min-height: 80vh;
   align-items: center;
+  display: flex;
+}
+
+.bigChunk{
+  margin: auto;
 }
 
 .bannerContainer {
@@ -19,6 +24,8 @@
   width: 100%;
   height: 10rem;
   display: flex;
+  max-width: 30em;
+  margin: auto;
   align-content: center;
   justify-content: space-around;
 }

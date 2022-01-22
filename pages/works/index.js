@@ -25,73 +25,75 @@ export default function Home() {
 
   return (
     <div className={cssClasses.canvas}>
-      <Head>
-        <title>Works 214N</title>
-      </Head>
-      {/* works page banner */}
-      <div className={cssClasses.bannerContainer}>
-        <div className={cssClasses.banner}>
-          <Image layout="intrinsic" src={worksBanner} />
+      <div className={cssClasses.bigChunk}>
+        <Head>
+          <title>Works 214N</title>
+        </Head>
+        {/* works page banner */}
+        <div className={cssClasses.bannerContainer}>
+          <div className={cssClasses.banner}>
+            <Image layout="intrinsic" src={worksBanner} />
+          </div>
         </div>
-      </div>
 
-      {/* coding and va */}
-      <div className={cssClasses.itemContainer}>
-        {/* coding */}
-        <div>
-          <Link href="/works/coding">
-            <div
-              onMouseEnter={onMouseEnteringCoding}
-              onMouseLeave={onMouseLeavingCoding}
-              className={cssClasses.items}
-            >
-              {isHoveringCoding ? (
-                <Image
-                  width={iconWidth}
-                  height={iconHeight}
-                  layout="intrinsic"
-                  className={cssClasses.icon}
-                  src={codingIconH}
-                />
-              ) : (
-                <Image
-                  width={iconWidth}
-                  height={iconHeight}
-                  layout="intrinsic"
-                  className={cssClasses.icon}
-                  src={codingIconN}
-                />
-              )}
-            </div>
-          </Link>
-        </div>
-        {/* va */}
-        <div>
-          <Link href="/works/visual-arts">
-            <div
-              onMouseEnter={onMouseEnteringVA}
-              onMouseLeave={onMouseLeavingVA}
-              className={cssClasses.items}
-            >
-              {isHoveringVA ? (
-                <Image
-                  width={iconWidth}
-                  height={iconHeight}
-                  layout="intrinsic"
-                  className={cssClasses.icon}
-                  src={vaIconH}
-                />
-              ) : (
-                <Image
-                  width={iconWidth}
-                  height={iconHeight}
-                  layout="intrinsic"
-                  className={cssClasses.icon}
-                  src={vaIconN}
-                />
-              )}
-            </div>
-          </Link>
+        {/* coding and va */}
+        <div className={cssClasses.itemContainer}>
+          {/* coding */}
+          <div>
+            <Link href="/works/coding">
+              <div
+                onMouseEnter={onMouseEnteringCoding}
+                onMouseLeave={onMouseLeavingCoding}
+                className={cssClasses.items}
+              >
+                {isHoveringCoding ? (
+                  <Image
+                    width={iconWidth}
+                    height={iconHeight}
+                    layout="intrinsic"
+                    className={cssClasses.icon}
+                    src={codingIconH}
+                  />
+                ) : (
+                  <Image
+                    width={iconWidth}
+                    height={iconHeight}
+                    layout="intrinsic"
+                    className={cssClasses.icon}
+                    src={codingIconN}
+                  />
+                )}
+              </div>
+            </Link>
+          </div>
+          {/* va */}
+          <div>
+            <Link href="/works/visual-arts">
+              <div
+                onMouseEnter={onMouseEnteringVA}
+                onMouseLeave={onMouseLeavingVA}
+                className={cssClasses.items}
+              >
+                {isHoveringVA ? (
+                  <Image
+                    width={iconWidth}
+                    height={iconHeight}
+                    layout="intrinsic"
+                    className={cssClasses.icon}
+                    src={vaIconH}
+                  />
+                ) : (
+                  <Image
+                    width={iconWidth}
+                    height={iconHeight}
+                    layout="intrinsic"
+                    className={cssClasses.icon}
+                    src={vaIconN}
+                  />
+                )}
+              </div>
+            </Link>
+          </div>
         </div>
       </div>
     </div>
