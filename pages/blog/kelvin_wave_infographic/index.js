@@ -51,7 +51,7 @@ export default function Home() {
             src={infographic_img}
           />
           </p>
-          {/* add contents between */}
+          <p>ZIAN 4th DEC 2021</p>
         </div>
       </div>
     </div>

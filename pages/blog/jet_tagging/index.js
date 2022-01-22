@@ -31,18 +31,29 @@ export default function Home() {
 
           {/* add contents between */}
           <p>
-            This is the final assignment of PHAS0056 Practical Machine Learning
-            for Physicists. The project is basically about separating preprossed
-            images showing collimated sprays of hadronic decays (jet). At the
-            time of writing I have just finished it. It was REALLY tiring to
-            finish 2 formal reports in 2 weeks so I guess I will get myself a
-            short holiday.
+            This research on the classification of collimated particles (jets)
+            observed in Large Hadron Collider experiment, using a low-dimension
+            imaging analysis, is the final assignment of the third year course
+            &ldquo;Practical Machine Learning for Physicist&rdquo; I took in my
+            undergraduate degree at University College London. In this project,
+            I was provided with generated jet images from my instructor Prof.
+            Mario Campanelli. My task was to implement machine vision techniques
+            such as convolutional neural network on the provided jet image set
+            to separate the jet sprays due to W boson decay and top quark decay.
           </p>
           <p>
-            I think I will just leave it like this. As usual the links to work
-            are downstairs. I will definitely come back to this page when I am
-            free, to say more details about the assignment. Well, or one can
-            refer to the formal report I guess...
+            I have been recommended by friends about Google Colab for a long
+            time and this assignment sounds like the perfect time to give it a
+            try. I paid a little bit for their accelerated GPU and gosh it was
+            10 times faster than my poor GeForce 1050 Ti I ran CS:GO on. I have
+            to say I am a loyal customer now before I can afford those GeForce
+            30X0 cards. We really need some computing devices dedicated for
+            Bitcoin mining so normal uni students like us can have a bit more
+            fun on Steam after their labreport. :0)
+          </p>
+          <p>
+            Anyway feel free to have a look on my report and Python codes on
+            this very first machine learning of mine. I put them below here:
           </p>
           <p>
             <a
@@ -67,7 +78,7 @@ export default function Home() {
             className={cssClasses.backIcon}
             src={cover_page}
           />
-          {/* add contents between */}
+          <p>ZIAN 8TH JAN 2022</p>
         </div>
       </div>
     </div>

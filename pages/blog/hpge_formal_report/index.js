@@ -31,19 +31,26 @@ export default function Home() {
 
           {/* add contents between */}
           <p>
-            As I am writing at his moment, I have just finished proof reading my
-            formal report as part of the PHAS0051 Experimental Physics course. I
-            have to move on to the next assignment on separating jets images
-            using CNN. I am uploading this report, containing much of my hard
-            work, as a sample of work for any potential reference.
+            This lab report was produced for the practical module
+            &ldquo;Experimental Physics&rdquo; in my third year of physics
+            undergrad at UCL. It was about the study of high purity germanium
+            detector (HPGe) and gamma spectroscopy. However, the reason I chose
+            this module was the amount of computing involved in the data
+            analysis of the raw output from the detector, involving calibration
+            and other statistical operations.
           </p>
-          <p>Good luck to me on my next assignment... 2022 tough start...</p>
           <p>
-            By the way, after finishing all of the assignment in January, I am
-            planning to update this website. I am planning to add a native pdf
-            reading function so I dont need to put download link everytime and
-            people will feel more comfortable browsing. I will probably make
-            some changes on the modals in the Arts section as well.
+            As a bonus to playing with the radioactive samples (Co-60, Bi-207
+            etc.) in the lab, we also have a chance to work on the spectra of a
+            set of soil samples from Norway, before and after the Chernobyl
+            incident. It sounds really exciting but the truth is out instructor
+            just threw the data on my face and didn&rsquo;t tell us the details
+            of the measurement efficiency of the detector he used so we cannot
+            obtain the percentage of Chernobyl radioactive traces. :(
+          </p>
+          <p>
+            I put the report here for everyone to access it. Humm, I quite like
+            the cover page I made for it.
           </p>
           <p>
             <a
@@ -59,7 +66,7 @@ export default function Home() {
             className={cssClasses.backIcon}
             src={cover_page}
           />
-          {/* add contents between */}
+          <p>ZIAN 3RD JAN 2022</p>
         </div>
       </div>
     </div>

@@ -71,7 +71,7 @@ export default function Home() {
             src={video_cover}
           />
           </p>
-          {/* add contents between */}
+          <p>ZIAN 3RD NOV 2021</p>
         </div>
       </div>
     </div>
