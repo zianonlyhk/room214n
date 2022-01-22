@@ -25,7 +25,6 @@ export default function Home() {
 
   return (
     <div className={cssClasses.canvas}>
-      <div className={cssClasses.bigChunk}>
         <Head>
           <title>Works 214N</title>
         </Head>
@@ -95,7 +94,6 @@ export default function Home() {
             </Link>
           </div>
         </div>
-      </div>
     </div>
   );
 }
