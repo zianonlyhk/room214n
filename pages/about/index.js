@@ -46,7 +46,7 @@ export default function Home() {
             >
               here
             </a>
-            (updated December 2021), as a link to Google Drive, hoping this casual
+            , as a link to Google Drive, hoping this casual
             personal website can help to build a more complete career profile.
           </p>
           <p>
