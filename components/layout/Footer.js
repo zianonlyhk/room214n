@@ -11,7 +11,7 @@ export default function Navbar() {
       <ul className={cssClasses.gitAndLinked}>
         <li>
           <a
-            href="https://www.linkedin.com/in/zian-huang-55aa6a198/"
+            href="https://www.linkedin.com/in/zian-huang/"
             target="_blank"
             rel="noreferrer"
           >
