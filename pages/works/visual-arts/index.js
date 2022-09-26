@@ -15,7 +15,7 @@ import fountainPen from "/img/works/vaRes/fountainpen.JPG";
 import drPepper from "/img/works/vaRes/drpepper.JPG";
 import polyMe from "/img/works/vaRes/polyme.jpg";
 import printing from "/img/works/vaRes/printing.JPG";
-import quick_s from "/img/works/vaRes/quick_s.jpg";
+import quick_s from "/img/works/vaRes/quick_s.JPG";
 import red_tote_bag from "/img/works/vaRes/red_tote_bag.JPG";
 
 // for image modal feature
