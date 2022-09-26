@@ -45,3 +45,37 @@
 .backIcon:hover {
   cursor: pointer;
 }
+
+.navigationButtons {
+  font-family: Arvo;
+  width: 80%;
+  height: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding-top: 40px;
+}
+
+.navigationButtons a {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+}
+
+.navigationButtons a:hover {
+  color: white;
+  background-color: black;
+}
+
+.navigationActive a {
+  color: white;
+  background-color: black;
+}
+
+.navigationDisabled a {
+  color: #eee8d5;
+  background-color: #eee8d5;
+}

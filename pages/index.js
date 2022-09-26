@@ -1,8 +1,9 @@
 import React, { useState } from "react";
+import cssClasses from "./index.module.css";
+// Next.js optimised modules
 import Link from "next/link";
 import Image from "next/image";
 import Head from "next/head";
-import cssClasses from "./index.module.css";
 
 // importing images
 import homeBanner from "/img/home/home-banner.png";
@@ -24,7 +25,7 @@ export default function Home() {
   const [isHoveringAbout, setIsHoveredAbout] = useState(false);
   const onMouseEnteringAbout = () => setIsHoveredAbout(true);
   const onMouseLeavingAbout = () => setIsHoveredAbout(false);
-
+  // icon size
   const iconWidth = 150;
   const iconHeight = 150;
 

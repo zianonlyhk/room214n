@@ -31,27 +31,31 @@ export default function Home() {
 
           {/* add contents between */}
           <p>
-            This lab report was produced for the practical module
-            &ldquo;Experimental Physics&rdquo; in my third year of physics
-            undergrad at UCL. It was about the study of high purity germanium
-            detector (HPGe) and gamma spectroscopy. However, the reason I chose
-            this module was the amount of computing involved in the data
-            analysis of the raw output from the detector, involving calibration
-            and other statistical operations.
+            This lab report was produced as the final assignment for the
+            practical module &ldquo;PHAS0051 Experimental Physics&rdquo; in my
+            third year of BSc Physics at University College London. It is about
+            the study of using high purity germanium detector (HPGe) to perform
+            gamma spectroscopy. I chose this module because of the amount of
+            computing involved in the data analysis of raw detector output. This
+            involved the calibration of the detector and other statistical
+            operations.
           </p>
           <p>
-            As a bonus to playing with the radioactive samples (Co-60, Bi-207
-            etc.) in the lab, we also have a chance to work on the spectra of a
-            set of soil samples from Norway, before and after the Chernobyl
-            incident. It sounds really exciting but the truth is out instructor
-            just threw the data on my face and didn&rsquo;t tell us the details
-            of the measurement efficiency of the detector he used so we cannot
-            obtain the percentage of Chernobyl radioactive traces. :(
+            In addition to playing with the lab-in-stock radioactive samples
+            (Co-60, Bi-207 etc.), we also had a chance to work on the spectra of
+            multiple soil samples from Norway, before and after the Chernobyl
+            incident. It sounds really exciting but plot twist - our instructor
+            just threw the data on us and didn&rsquo;t tell us the details of
+            the measurement efficiency of the detector he used so we cannot
+            obtain the percentage of Chernobyl radioactive traces :(
           </p>
           <p>
-            I put the report here for everyone to access it. Humm, I quite like
-            the cover page I made for it.
+            I put the report here for everyone to access it. There is a
+            potential risk that this report could be misused by my younger peers
+            when they are writing their own reports. I am aware of that so I
+            decided to keep the Python data analysis scripts private.
           </p>
+
           <p>
             <a
               href="https://drive.google.com/file/d/1tQHW1gCpuQpXoJ9qQfKnOpPihAhZQgR9/view?usp=sharing"
@@ -61,11 +65,7 @@ export default function Home() {
               PRESS HERE to go to the Google Drive download page
             </a>
           </p>
-          <Image
-            layout="intrinsic"
-            className={cssClasses.backIcon}
-            src={cover_page}
-          />
+          <Image layout="intrinsic" src={cover_page} />
           <p>ZIAN 3RD JAN 2022</p>
         </div>
       </div>

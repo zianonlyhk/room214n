@@ -25,17 +25,19 @@ export default function Home() {
       <div className={cssClasses.textBg}>
         <div className={cssClasses.textCanvas}>
           <p>
-            Right now an undergraduate physics student at University College
-            London. Been learning some maths and computer science as
-            well.&nbsp;Was based in Hong Kong before moving to London. Luckliy
-            nothing really bad has happened to me so far so I&#39;m having [not
-            bad] time of my life.
+            A postgraduate physics student at the University of Cambridge. Did
+            undergraduate at University College London, on BSc Physics. Been
+            learning some maths and computer science as well. Was based in Hong
+            Kong and then London and now Cambridge. Likely to go back to Hong
+            Kong after education as I really want to join to the Hong Kong
+            Observatory and become a meteorologist. So far nothing really bad
+            has happened to me and I'm enjoying my (not bad) time.
           </p>
           <p>Interests</p>
           <ul>
             <li>drawing and painting</li>
             <li>playing (with) musical instrument</li>
-            <li>single player video gaming</li>
+            <li>gaming (single player game only sorz)</li>
           </ul>
           <p>
             I put my CV{" "}
@@ -46,14 +48,10 @@ export default function Home() {
             >
               here
             </a>
-            , as a link to Google Drive, hoping this casual
-            personal website can help to build a more complete career profile.
+            , as a link to Google Drive, hoping this personal website can help
+            me building a more complete career profile.
           </p>
-          <p>
-            I don&#39;t really look like the guy above... `Probably a bit more
-            good looking. And it&#39;s quite expensive to go yum cha here in
-            London... :-/
-          </p>
+          <p>last updated, Sep 2022</p>
         </div>
       </div>
     </div>

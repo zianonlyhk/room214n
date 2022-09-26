@@ -1,14 +1,49 @@
 import React, { useState } from "react";
-import Link from "next/link";
-import Head from "next/head";
-import Image from "next/image";
 import cssClasses from "./index.module.css";
-import backIcon from "/img/others/back.png";
+// Next.js optimised modules
+import Link from "next/link";
+import Image from "next/image";
+import Head from "next/head";
+// for page navigation purpopse
+import ReactPaginate from "react-paginate";
 
 // importing images
 import codingBanner from "/img/works/works-banner.png";
+import backIcon from "/img/others/back.png";
 
 export default function Home() {
+  // entries
+  const coding_blog_entries = [
+    {
+      title: "Snake Filter",
+      href_link: "/works/coding/snake-filter",
+      date: "08/09/2021",
+    },
+  ];
+  // declarations for page navigation
+  const [page, setPage] = useState(0);
+  const [which_blog, setBlog] = useState(coding_blog_entries);
+  const blogPerPage = 10;
+  const numberOfBlogsVistited = page * blogPerPage;
+  const totalPages = Math.ceil(which_blog.length / blogPerPage);
+  const changePage = ({ selected }) => {
+    setPage(selected);
+  };
+  const displayBlogs = which_blog
+    .slice(numberOfBlogsVistited, numberOfBlogsVistited + blogPerPage)
+    .map((indi_blog) => {
+      return (
+        <div className={cssClasses.blogTitleContainer}>
+          <div className={cssClasses.blogTitle}>
+            <Link href={indi_blog.href_link}>
+              <a>- {indi_blog.title}</a>
+            </Link>
+            {indi_blog.date}
+          </div>
+        </div>
+      );
+    });
+
   return (
     <div className={cssClasses.canvas}>
       <Head>
@@ -32,10 +67,23 @@ export default function Home() {
             src={backIcon}
           />
         </Link>
-        <div className={cssClasses.blogTitleContainer}>
-          <div className={cssClasses.blogTitle}>
-            <Link href="/works/coding/snake-filter">- Snake Filter</Link>
-            08/09/2021
+
+        {/* page navigator */}
+        <div className={cssClasses.blogCanvas}>
+          <div>
+            {displayBlogs}
+            <ReactPaginate
+              previousLabel={"<"}
+              nextLabel={">"}
+              pageCount={totalPages}
+              onPageChange={changePage}
+              breakLabel={"..."}
+              containerClassName={cssClasses.navigationButtons}
+              previousLinkClassName={cssClasses.previousButton}
+              nextLinkClassName={cssClasses.nextButton}
+              disabledClassName={cssClasses.navigationDisabled}
+              activeClassName={cssClasses.navigationActive}
+            />
           </div>
         </div>
       </div>

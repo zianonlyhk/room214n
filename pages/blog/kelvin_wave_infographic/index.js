@@ -34,22 +34,18 @@ export default function Home() {
             I made this infographic in a standard blog page style, explaining
             the physics of Kelvin waves observed in the Earth ocean. Similar to
             the Coriolis acceleration YouTube video, this is also part of the
-            assessment of GEOL0022 Ocean Physics and Climate Change, instructed
-            by Dr Michel Tsamados at UCL Department of Earth Sciences.
-            Everything is in the infographic so I guess I don’t need to say much
-            here?
+            assessment of the course &ldquo;GEOL0022 Ocean Physics and Climate
+            Change&rdquo;, instructed by Dr Michel Tsamados at UCL Department of
+            Earth Sciences. I got 9.0/10 for this assignment - Michel the most
+            generous lecturer at UCL! Everything is relatively self-contained in
+            the infographic so I guess I don&rsquo;t need to say much here.
           </p>
           <p>
-            One thing though, the colour palette used was inspired by “Solarized
-            Dark”, a code text highlighter I used in my VS Code environment and
-            in my terminal. Yeah it’s my favourite.
+            One thing though, the colour palette used was inspired by
+            &ldquo;Solarized Dark&rdquo;. It&rsquo;s my favourite.
           </p>
           <p>
-          <Image
-            layout="intrinsic"
-            className={cssClasses.backIcon}
-            src={infographic_img}
-          />
+            <Image layout="intrinsic" src={infographic_img} />
           </p>
           <p>ZIAN 4th DEC 2021</p>
         </div>

@@ -31,29 +31,33 @@ export default function Home() {
 
           {/* add contents between */}
           <p>
-            This research on the classification of collimated particles (jets)
-            observed in Large Hadron Collider experiment, using a low-dimension
-            imaging analysis, is the final assignment of the third year course
-            &ldquo;Practical Machine Learning for Physicist&rdquo; I took in my
-            undergraduate degree at University College London. In this project,
-            I was provided with generated jet images from my instructor Prof.
-            Mario Campanelli. My task was to implement machine vision techniques
-            such as convolutional neural network on the provided jet image set
-            to separate the jet sprays due to W boson decay and top quark decay.
+            This research focuses on the classification of simulated jets in the
+            Large Hadron Collider experiment, aiming at using a low-dimension
+            imaging analysis to capture high-level nonlinear interactions. This
+            work was the final assignment of the third year course
+            &ldquo;PHAS0056 Practical Machine Learning for Physicist&rdquo; I
+            took in BSc Physics at University College London. In this project, I
+            was provided with generated jet images from my instructor Prof.
+            Mario Campanelli. My task was to implement machine learning
+            techniques such as convolutional neural network on the provided jet
+            image set to distinguish between the 2 different jet sprays due to W
+            boson decay and top quark decay.
           </p>
           <p>
-            I have been recommended by friends about Google Colab for a long
-            time and this assignment sounds like the perfect time to give it a
-            try. I paid a little bit for their accelerated GPU and gosh it was
-            10 times faster than my poor GeForce 1050 Ti I ran CS:GO on. I have
-            to say I am a loyal customer now before I can afford those GeForce
-            30X0 cards. We really need some computing devices dedicated for
-            Bitcoin mining so normal uni students like us can have a bit more
-            fun on Steam after their labreport. :0)
+            I have been recommended Google Colab by my friends for a long time
+            and this assignment was the perfect time for me to have a try. I
+            paid a little bit for their accelerated GPU and it performed way
+            better than I expected. It was 10 times faster in training time than
+            my poor GeForce 1050 Ti I run CS:GO on! I believe with more research
+            on its features, I can use my local text editor (VS Code) connected
+            to their cloud computing cluster. I can then use a development
+            environment I am use to while enjoying a fast computing time. They
+            should have got this already right?
           </p>
           <p>
             Anyway feel free to have a look on my report and Python codes on
-            this very first machine learning of mine. I put them below here:
+            this very first machine learning of mine. I put them down below
+            here:
           </p>
           <p>
             <a
@@ -73,11 +77,7 @@ export default function Home() {
               PRESS HERE to go to the Python notebook Google Drive link
             </a>
           </p>
-          <Image
-            layout="intrinsic"
-            className={cssClasses.backIcon}
-            src={cover_page}
-          />
+          <Image layout="intrinsic" src={cover_page} />
           <p>ZIAN 8TH JAN 2022</p>
         </div>
       </div>
