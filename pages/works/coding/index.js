@@ -15,6 +15,11 @@ export default function Home() {
   // entries
   const coding_blog_entries = [
     {
+      title: "ml_jet_tagger",
+      href_link: "/works/coding/jet-tagger",
+      date: "31/08/2022",
+    },
+    {
       title: "Snake Filter",
       href_link: "/works/coding/snake-filter",
       date: "08/09/2021",
@@ -69,22 +74,20 @@ export default function Home() {
         </Link>
 
         {/* page navigator */}
-        <div className={cssClasses.blogCanvas}>
-          <div>
-            {displayBlogs}
-            <ReactPaginate
-              previousLabel={"<"}
-              nextLabel={">"}
-              pageCount={totalPages}
-              onPageChange={changePage}
-              breakLabel={"..."}
-              containerClassName={cssClasses.navigationButtons}
-              previousLinkClassName={cssClasses.previousButton}
-              nextLinkClassName={cssClasses.nextButton}
-              disabledClassName={cssClasses.navigationDisabled}
-              activeClassName={cssClasses.navigationActive}
-            />
-          </div>
+        <div>
+          {displayBlogs}
+          <ReactPaginate
+            previousLabel={"<"}
+            nextLabel={">"}
+            pageCount={totalPages}
+            onPageChange={changePage}
+            breakLabel={"..."}
+            containerClassName={cssClasses.navigationButtons}
+            previousLinkClassName={cssClasses.previousButton}
+            nextLinkClassName={cssClasses.nextButton}
+            disabledClassName={cssClasses.navigationDisabled}
+            activeClassName={cssClasses.navigationActive}
+          />
         </div>
       </div>
       <div className={cssClasses.blogCanvas}>

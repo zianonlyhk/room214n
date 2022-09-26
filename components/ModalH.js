@@ -40,8 +40,7 @@ const Modal = ({ show, onClose, children, title }) => {
   }
 };
 
-const StyledModalBody = styled.div`
-`;
+const StyledModalBody = styled.div``;
 
 const StyledModalHeader = styled.div`
   display: flex;
@@ -51,9 +50,12 @@ const StyledModalHeader = styled.div`
 const StyledModal = styled.div`
   background: black;
   width: 600px;
-  height: 450px;
+  height: 500px;
   border-radius: 15px;
-  padding: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
 `;
 const StyledModalOverlay = styled.div`
   position: absolute;

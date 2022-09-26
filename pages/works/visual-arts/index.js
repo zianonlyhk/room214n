@@ -15,7 +15,7 @@ import fountainPen from "/img/works/vaRes/fountainpen.JPG";
 import drPepper from "/img/works/vaRes/drpepper.JPG";
 import polyMe from "/img/works/vaRes/polyme.jpg";
 import printing from "/img/works/vaRes/printing.JPG";
-import quick_s from "/img/works/vaRes/quick_s.JPG";
+import quick_s from "/img/works/vaRes/quick_s.jpg";
 import red_tote_bag from "/img/works/vaRes/red_tote_bag.JPG";
 
 // for image modal feature
@@ -142,9 +142,9 @@ export default function Home() {
         <ModalH onClose={() => setShowModal4(false)} show={showModal4}>
           <Image layout="intrinsic" src={printing} />
         </ModalH>
-        <ModalV onClose={() => setShowModal5(false)} show={showModal5}>
+        <ModalH onClose={() => setShowModal5(false)} show={showModal5}>
           <Image layout="responsive" src={quick_s} />
-        </ModalV>
+        </ModalH>
         <ModalV onClose={() => setShowModal6(false)} show={showModal6}>
           <Image layout="intrinsic" src={red_tote_bag} />
         </ModalV>

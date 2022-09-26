@@ -11,8 +11,14 @@ import ReactPaginate from "react-paginate";
 import blogBanner from "/img/blog/blog-banner.png";
 
 export default function Home() {
+  // #################################################
   // entries
   const blog_entries = [
+    {
+      title: "Cities Partnerships Programme with Stockholm",
+      href_link: "/blog/enviro",
+      date: "15/07/2022",
+    },
     {
       title: "Separating jet images using CNN",
       href_link: "/blog/jet_tagging",
@@ -34,6 +40,8 @@ export default function Home() {
       date: "03/11/2021",
     },
   ];
+  // #################################################
+
   // declarations for page navigation
   const [page, setPage] = useState(0);
   const [which_blog, setBlog] = useState(blog_entries);

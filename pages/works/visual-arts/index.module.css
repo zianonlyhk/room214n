@@ -79,3 +79,7 @@
   color: #eee8d5;
   background-color: #eee8d5;
 }
+
+.imgInModal {
+  display: flex;
+}
