@@ -15,6 +15,11 @@ export default function Home() {
   // entries
   const blog_entries = [
     {
+      title: "I have graduated from UCL, and the next stop – Cambridge!",
+      href_link: "/blog/grad_and_offer",
+      date: "29/09/2022",
+    },
+    {
       title: "Cities Partnerships Programme with Stockholm",
       href_link: "/blog/enviro",
       date: "15/07/2022",
