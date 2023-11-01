@@ -45,7 +45,7 @@ export default function Home() {
           <p>
             I put my CV{" "}
             <EmbedPDF>
-                <a href="https://raw.githubusercontent.com/zianonlyhk/room214n/23c61964185312c18fdc5be141c4b89491dae85d/pdf/ZHuang_CV_Nov23.pdf">
+                <a href="https://raw.githubusercontent.com/zianonlyhk/pdf/2ee9030bf94c5e9ff4391d4944b640dffa2052e7/ZHuang_CV_Nov23.pdf">
                     here
                 </a>
             </EmbedPDF>
