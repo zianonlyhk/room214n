@@ -22,7 +22,7 @@ const Modal = ({ show, onClose, children, title }) => {
       <StyledModal>
         <StyledModalHeader>
           <a href="#" onClick={handleCloseClick}>
-            <Image layout="responsive" sizes="45px" src={closeCross} />
+            <Image layout="fixed" width="45px" height="45px" src={closeCross} />
           </a>
         </StyledModalHeader>
         <StyledModalBody>{children}</StyledModalBody>
