@@ -16,8 +16,8 @@ export default function Navbar() {
             rel="noreferrer"
           >
             <Image
-              width={50}
-              height={50}
+              width={75}
+              height={75}
               layout="intrinsic"
               className={cssClasses.icon}
               src={linkedinIcon}
@@ -31,8 +31,8 @@ export default function Navbar() {
             rel="noreferrer"
           >
             <Image
-              width={50}
-              height={50}
+              width={75}
+              height={75}
               layout="intrinsic"
               className={cssClasses.icon}
               src={githubIcon}
@@ -41,8 +41,7 @@ export default function Navbar() {
         </li>
       </ul>
       <Image
-        width={168}
-        height={50}
+        height={75}
         layout="intrinsic"
         className={cssClasses.icon}
         src={dekhanyumcha}

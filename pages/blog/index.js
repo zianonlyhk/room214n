@@ -62,7 +62,7 @@ export default function Home() {
       return (
         <div className={cssClasses.blogTitleContainer}>
           <div className={cssClasses.blogTitle}>
-            <Link href={indi_blog.href_link}>
+            <Link href={indi_blog.href_link} legacyBehavior>
               <a>- {indi_blog.title}</a>
             </Link>
             {indi_blog.date}

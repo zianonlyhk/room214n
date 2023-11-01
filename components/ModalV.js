@@ -22,7 +22,7 @@ const Modal = ({ show, onClose, children, title }) => {
       <StyledModal>
         <StyledModalHeader>
           <a href="#" onClick={handleCloseClick}>
-            <Image height="30vh" width="30vh" src={closeCross} />
+            <Image layout="responsive" sizes="45px" src={closeCross} />
           </a>
         </StyledModalHeader>
         <StyledModalBody>{children}</StyledModalBody>
@@ -46,6 +46,7 @@ const StyledModalBody = styled.div`
 const StyledModalHeader = styled.div`
   display: flex;
   justify-content: flex-end;
+  height: 53px;
 `;
 
 const StyledModal = styled.div`
@@ -53,7 +54,11 @@ const StyledModal = styled.div`
   width: 400px;
   height: 600px;
   border-radius: 15px;
-  padding: 10px;
+//   padding: 10px;
+  padding-bottom: 33px;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
 `;
 const StyledModalOverlay = styled.div`
   position: absolute;

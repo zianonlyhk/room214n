@@ -13,8 +13,8 @@ export default function Navbar() {
       <div>
         <Link href="/">
           <Image
-            width={50}
-            height={50}
+              width={75}
+              height={75}
             layout="intrinsic"
             className={cssClasses.icon}
             src={homeIcon}
@@ -25,8 +25,8 @@ export default function Navbar() {
         <li>
           <Link href="/blog">
             <Image
-              width={50}
-              height={50}
+              width={75}
+              height={75}
               layout="intrinsic"
               className={cssClasses.icon}
               src={blogIcon}
@@ -36,8 +36,8 @@ export default function Navbar() {
         <li>
           <Link href="/works">
             <Image
-              width={50}
-              height={50}
+              width={75}
+              height={75}
               layout="intrinsic"
               className={cssClasses.icon}
               src={worksIcon}
@@ -47,8 +47,8 @@ export default function Navbar() {
         <li>
           <Link href="/about">
             <Image
-              width={50}
-              height={50}
+              width={75}
+              height={75}
               layout="intrinsic"
               className={cssClasses.icon}
               src={aboutIcon}

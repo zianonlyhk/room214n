@@ -25,19 +25,19 @@ export default function Home() {
       <div className={cssClasses.textBg}>
         <div className={cssClasses.textCanvas}>
           <p>
-            A postgraduate physics student at the University of Cambridge. Did
-            undergraduate at University College London, on BSc Physics. Been
-            learning some maths and computer science as well. Was based in Hong
-            Kong and then London and now Cambridge. Likely to go back to Hong
-            Kong after education as I really want to join to the Hong Kong
-            Observatory and become a meteorologist. So far nothing really bad
-            has happened to me and I'm enjoying my (not bad) time.
+          About me:
           </p>
-          <p>Interests</p>
+            <ul>
+            <li>Live in Hong Kong</li>
+            <li>Did a BSc in Physics at University College London</li>
+            <li>Then an MPhil in Scientific Computing at the University of Cambridge</li>
+            <li>Want to join to the Hong Kong Observatory and become a meteorologist</li>
+            </ul>
+          <p>When I am slacking you'll see me doing:</p>
           <ul>
             <li>drawing and painting</li>
-            <li>playing (with) musical instrument</li>
-            <li>gaming (single player game only sorz)</li>
+            <li>karaoke and playing musical instrument</li>
+            <li>a bit of console gaming</li>
           </ul>
           <p>
             I put my CV{" "}
@@ -48,10 +48,9 @@ export default function Home() {
             >
               here
             </a>
-            , as a link to Google Drive, hoping this personal website can help
-            me building a more complete career profile.
+            , as a link to my Google Drive. Hope this very informal personal website can help me to build a more complete career profile.
           </p>
-          <p>last updated, Sep 2022</p>
+          <p>last updated, Nov 2023</p>
         </div>
       </div>
     </div>

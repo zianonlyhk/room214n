@@ -22,7 +22,7 @@ const Modal = ({ show, onClose, children, title }) => {
       <StyledModal>
         <StyledModalHeader>
           <a href="#" onClick={handleCloseClick}>
-            <Image height="30vh" width="30vh" src={closeCross} />
+            <Image layout="responsive" sizes="45px" src={closeCross} />
           </a>
         </StyledModalHeader>
         <StyledModalBody>{children}</StyledModalBody>
@@ -40,19 +40,21 @@ const Modal = ({ show, onClose, children, title }) => {
   }
 };
 
-const StyledModalBody = styled.div``;
+const StyledModalBody = styled.div`
+`;
 
 const StyledModalHeader = styled.div`
   display: flex;
   justify-content: flex-end;
+  height: 53px;
 `;
 
 const StyledModal = styled.div`
   background: black;
   width: 600px;
-  height: 500px;
+  height: 475px;
   border-radius: 15px;
-  padding-bottom: 10px;
+  padding-bottom: 8px;
   padding-top: 10px;
   padding-left: 30px;
   padding-right: 30px;
