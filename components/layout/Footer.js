@@ -42,7 +42,8 @@ export default function Navbar() {
       </ul>
       <Image
         height={75}
-        layout="intrinsic"
+        width={280}
+        layout="fixed"
         className={cssClasses.icon}
         src={dekhanyumcha}
       />
