@@ -20,21 +20,6 @@ export default function Home() {
       date: "29/09/2022",
     },
     {
-      title: "Cities Partnerships Programme with Stockholm",
-      href_link: "/blog/enviro",
-      date: "15/07/2022",
-    },
-    {
-      title: "Separating jet images using CNN",
-      href_link: "/blog/jet_tagging",
-      date: "09/01/2022",
-    },
-    {
-      title: "Gamma spectroscopy with an HPGe detector",
-      href_link: "/blog/hpge_formal_report",
-      date: "03/01/2022",
-    },
-    {
         title: "Selected projects in my physics undergrad",
         href_link: "/blog/2_selected_projects",
         date: "15/07/2022",
