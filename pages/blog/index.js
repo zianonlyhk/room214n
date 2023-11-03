@@ -15,7 +15,7 @@ export default function Home() {
   // entries
   const blog_entries = [
     {
-      title: "I have graduated from UCL, and the next stop – Cambridge!",
+      title: "Just graduated from UCL, the next stop – Cambridge!",
       href_link: "/blog/grad_and_offer",
       date: "29/09/2022",
     },
@@ -30,20 +30,20 @@ export default function Home() {
       date: "09/01/2022",
     },
     {
-      title: "Gamma spectroscopy using HPGe detector",
+      title: "Gamma spectroscopy with an HPGe detector",
       href_link: "/blog/hpge_formal_report",
       date: "03/01/2022",
     },
     {
-      title: "Kelvin waves infographic",
-      href_link: "/blog/kelvin_wave_infographic",
-      date: "04/12/2021",
-    },
+        title: "Selected projects in my physics undergrad",
+        href_link: "/blog/2_selected_projects",
+        date: "15/07/2022",
+      },
     {
-      title: "Coriolis force YouTube video",
-      href_link: "/blog/coriolis_force",
-      date: "03/11/2021",
-    },
+        title: "GEOL0022 Ocean Physics and Climate Change",
+        href_link: "/blog/1_geol0022_ocean_physics",
+        date: "04/12/2021",
+      },
   ];
   // #################################################
 
