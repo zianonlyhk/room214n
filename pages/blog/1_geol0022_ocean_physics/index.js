@@ -5,8 +5,8 @@ import Head from "next/head";
 import cssClasses from "./index.module.css";
 
 import backIcon from "/img/others/back.png";
-import video_cover from "/img/blog/coriolis/coriolis_example.jpg";
-import infographic_img from "/img/blog/infographic_kelvin/kelvin_infographic.png";
+import video_cover from "/img/blog/geol0022_ocean_physics/coriolis_example.jpg";
+import infographic_img from "/img/blog/geol0022_ocean_physics/kelvin_infographic.png";
 
 import Latex from 'react-latex-next';
 import 'katex/dist/katex.min.css';
@@ -31,7 +31,7 @@ export default function Home() {
           </Link>
 
           <p>
-            In my undergrad 3rd year, I attended an elective course - “Ocean Physics and Climate Change”, from the neighbouring department of earth sciences. It serves me as a refresh from my other modules on fundamental physics (particle, quantum electromagnetism...). It was also motivated by my rising interest in climate mitigation, as the 6th IPCC report had just been published back then. I really enjoyed the time I spent with the lecturer: Dr Michel Tsamados and I recommend my UCL schoolmates to have a look on his course. Here I showcase two components of the assessment for people to look at :)
+            In my undergrad 3rd year, I attended an elective course - “Ocean Physics and Climate Change”, from the neighbouring department of earth sciences. It serves me as a refresh from my other modules on fundamental physics (particle, quantum electromagnetism...). It was also motivated by my rising interest in climate mitigation, as the 6th IPCC report had just been published back then. I really enjoyed the time I spent with my lecturer: Dr Michel Tsamados, and I recommend my UCL schoolmates to have a look on his course. Here I showcase two components of the assessment for people to look at :)
           </p>
           <p>---</p>
           <p>

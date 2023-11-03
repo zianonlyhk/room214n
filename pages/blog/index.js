@@ -16,7 +16,7 @@ export default function Home() {
   const blog_entries = [
     {
       title: "Just graduated from UCL, the next stop – Cambridge!",
-      href_link: "/blog/grad_and_offer",
+      href_link: "/blog/3_grad_and_offer",
       date: "29/09/2022",
     },
     {

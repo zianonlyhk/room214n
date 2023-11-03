@@ -49,7 +49,7 @@ export default function Home() {
                     here
                 </a>
             </EmbedPDF>
-            , as a link to my Google Drive. Hope this very informal personal website can help me to build a more complete career profile.
+            . Hope this very informal personal website can help me to build a more complete career profile.
           </p>
           <p>last updated, Nov 2023</p>
         </div>

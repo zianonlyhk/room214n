@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <div className={cssClasses.canvas}>
       <Head>
-        <title>Selected undergrad projects</title>
+        <title>Selected Undergrad Projects</title>
       </Head>
 
       <div className={cssClasses.textBg}>
