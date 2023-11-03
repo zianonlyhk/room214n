@@ -6,6 +6,9 @@ import cssClasses from "./index.module.css";
 
 import backIcon from "/img/others/back.png";
 
+import Latex from 'react-latex-next';
+import 'katex/dist/katex.min.css';
+
 export default function Home() {
   return (
     <div className={cssClasses.canvas}>
@@ -60,6 +63,9 @@ export default function Home() {
             happen but I don&rsquo;t want to do it myself :( There will be so
             much to rewrite and the amount of work will double when I am
             updating. Sorry mum ask dad or Google to translate...
+          </p>
+          <p>
+          Nov 2023: I can now type <Latex>$\LaTeX$</Latex> in my blog. I am happy :)
           </p>
           {/* add contents between */}
         </div>
