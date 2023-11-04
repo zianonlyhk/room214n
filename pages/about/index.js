@@ -7,6 +7,9 @@ import cssClasses from "./index.module.css";
 // importing images
 import aboutBanner from "/img/about/about-banner.png";
 
+// importing pdf
+import { EmbedPDF } from "@simplepdf/react-embed-pdf";
+
 export default function Home() {
   return (
     <div className={cssClasses.canvas}>
@@ -41,14 +44,12 @@ export default function Home() {
           </ul>
           <p>
             I put my CV{" "}
-            <a
-              href="https://drive.google.com/drive/folders/1KSoziYn1tKHGtvA5Ft-br9_boDI6FGGV?usp=sharing"
-              target="_blank"
-              rel="noreferrer"
-            >
-              here
-            </a>
-            , as a link to my Google Drive. Hope this very informal personal website can help me to build a more complete career profile.
+            <EmbedPDF>
+                <a href="https://raw.githubusercontent.com/zianonlyhk/pdf/2ee9030bf94c5e9ff4391d4944b640dffa2052e7/ZHuang_CV_Nov23.pdf">
+                    here
+                </a>
+            </EmbedPDF>
+            . Hope this very informal personal website can help me to build a more complete career profile.
           </p>
           <p>last updated, Nov 2023</p>
         </div>
