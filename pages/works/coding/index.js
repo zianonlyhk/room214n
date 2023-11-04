@@ -16,12 +16,12 @@ export default function Home() {
   const coding_blog_entries = [
     {
       title: "ml_jet_tagger",
-      href_link: "/works/coding/jet-tagger",
+      href_link: "/works/coding/2_jet-tagger",
       date: "31/08/2022",
     },
     {
       title: "Snake Filter",
-      href_link: "/works/coding/snake-filter",
+      href_link: "/works/coding/1_snake-filter",
       date: "08/09/2021",
     },
   ];
