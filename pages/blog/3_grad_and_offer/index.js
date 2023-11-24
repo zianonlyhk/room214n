@@ -31,7 +31,7 @@ export default function Home() {
           </Link>
 
           <p>
-            News to share on my blog (but not on LinkedIn, fxxk LinkedIn): I have graduated from my BSc in Physics at University College London with first-class honours, and received an offer to continue my study at the University of Cambridge for an MPhil in Scientific Computing! In this blog page I will first briefly reflect on my past 3 years at UCL, describe what I will be doing in the coming year and share my career plan in mind.
+            News to share on my blog (but not on LinkedIn 👎): I have graduated from my BSc in Physics at University College London with first-class honours, and received an offer to continue my study at the University of Cambridge for an MPhil in Scientific Computing! In this blog page I will first briefly reflect on my past 3 years at UCL, describe what I will be doing in the coming year and share my career plan in mind.
           </p>
           <p>
             Throughout my time at UCL, what I have learnt can be broadly categorised into two: academic training and my personal development as an instance of our society/community. Sounds DEEP but might just be another not-so-good presentation of mine.
