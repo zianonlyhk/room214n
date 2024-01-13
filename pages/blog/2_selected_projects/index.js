@@ -6,7 +6,7 @@ import cssClasses from "./index.module.css";
 
 import backIcon from "/img/others/back.png";
 import cover_page_jet from "/img/blog/selected_projects/formal_report_cover.jpg";
-import cover_page_hpge from "/img/blog/selected_projects/cover_page.jpg";
+import cover_page_hpge from "/img/blog/selected_projects/cover_page.png";
 import cover_page_enviro from "/img/blog/selected_projects/enviro.png";
 
 import Latex from 'react-latex-next';
@@ -49,7 +49,7 @@ export default function Home() {
           </p>
           <p>
             <a
-              href="https://drive.google.com/file/d/1tQHW1gCpuQpXoJ9qQfKnOpPihAhZQgR9/view?usp=sharing"
+              href="https://drive.google.com/file/d/1YE7RtOkcz33ONtuAg24vACkm5q4DivVM/view?usp=drive_link"
               target="_blank"
               rel="noreferrer"
             >
