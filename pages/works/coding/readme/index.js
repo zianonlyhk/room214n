@@ -29,16 +29,13 @@ export default function Home() {
           </Link>
 
           <p>
-          This is a very informal personal website for me to share my works and drawings for people to have a look. There is also a blog page for me to record my study progress on maths, physics and programming.
+          This is a very informal personal website for me to share my works and drawings for people to have a look. There is also a blog page for me to record my study progress and my life in general.
           </p>
           <p>
           This website is running on the Next.js framework. The source code repo is public on GitHub to be fetched and deployed by Vercel.
           </p>
           <p>
           The name of this page - Room 214N, was inspired by my Connaught Hall room number during the first 2 years of my undergraduate study. In fact I was there in my third year as well but a different room. Try to see if you can figure out why there is an “N” at the end.
-          </p>
-          <p>
-          I have been trash talking so far because this Readme page is actually a blog template for me to make updates. I can just duplicate this directory, make a link on the parent index page, and copy my written contents in.
           </p>
           <p>
           Some day I will add an interface in Chinese as well. Some day...
