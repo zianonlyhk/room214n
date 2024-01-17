@@ -10,10 +10,9 @@ import catz_art from "/img/blog/cam_grad/catz_art.jpg";
 import cav_1 from "/img/blog/cam_grad/cav_1.jpg";
 import cav_2 from "/img/blog/cam_grad/cav_2.jpg";
 import miss_flight from "/img/blog/cam_grad/miss_flight.jpg";
-import mphil_cohort from "/img/blog/cam_grad/mphil_cohort.jpg";
+import mphil_cohort from "/img/blog/cam_grad/mphil_cohort.JPG";
 import uni_brass_1 from "/img/blog/cam_grad/uni_brass_1.jpg";
 import uni_brass_2 from "/img/blog/cam_grad/uni_brass_2.jpg";
-import with_harry from "/img/blog/cam_grad/with_harry.jpg";
 
 export default function Home() {
   return (
