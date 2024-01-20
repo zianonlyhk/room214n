@@ -52,7 +52,7 @@ export default function Home() {
           <p>My drawing was accepted for a small little art exhibition at my college - Catz:</p>
           <Image layout="intrinsic" src={catz_art} />
 
-          <p>I missed my flight for a trip with my childhood friend - was snowing on the previous day and Stansted Airport was packed...</p>
+          <p>I missed my flight on a trip with my childhood friend - was snowing on the previous day and Stansted Airport was packed...</p>
           <Image layout="intrinsic" src={miss_flight} />
 
           <p>I have experienced and grown a bit. I have had some fun. I wish to honour my last year of being a student in a foreign land. Starting from now, I am on my own to see what my home city is challenging me with.</p>
