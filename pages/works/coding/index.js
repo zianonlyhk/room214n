@@ -90,14 +90,14 @@ export default function Home() {
           />
         </div>
       </div>
-      <div className={cssClasses.blogCanvas}>
+      {/* <div className={cssClasses.blogCanvas}>
         <div className={cssClasses.blogTitleContainer}>
           <div className={cssClasses.blogTitle}>
             <Link href="/works/coding/readme">- Readme</Link>
             dd/mm/yyyy
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
