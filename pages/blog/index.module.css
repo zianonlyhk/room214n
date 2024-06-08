@@ -1,0 +1,74 @@
+.canvas {
+  min-height: 80vh;
+  align-items: center;
+}
+
+.bannerContainer {
+  width: 100%;
+  height: 20%;
+  position: relative;
+}
+
+.banner {
+  margin: auto;
+  text-align: center;
+  max-width: 45em;
+}
+
+.blogCanvas {
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  width: 100%;
+  max-width: 45em;
+  margin: auto;
+  background-color: #eee8d5;
+  margin-bottom: 1rem;
+}
+
+.blogTitleContainer {
+  width: 90%;
+  max-width: 700px;
+  margin: auto;
+  font-family: Arvo;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+}
+
+.blogTitle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigationButtons {
+  font-family: Arvo;
+  width: 80%;
+  height: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding-top: 40px;
+}
+
+.navigationButtons a {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+}
+
+.navigationButtons a:hover {
+  color: white;
+  background-color: black;
+}
+
+.navigationActive a {
+  color: white;
+  background-color: black;
+}
+
+.navigationDisabled a {
+  color: #eee8d5;
+  background-color: #eee8d5;
+}

@@ -1,0 +1,39 @@
+.canvas {
+  min-height: 80vh;
+  align-items: center;
+}
+
+.bannerContainer {
+  height: 30%;
+  width: 100%;
+  position: relative;
+}
+
+.banner {
+  margin: auto;
+  text-align: center;
+  max-width: 50em;
+}
+
+.itemContainer {
+  width: 100%;
+  height: 10rem;
+  display: flex;
+  max-width: 30em;
+  margin: auto;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.items {
+  height: 100%;
+  width: 100%;
+}
+
+.icon {
+  align-self: center;
+}
+
+.icon:hover {
+  cursor: pointer;
+}
